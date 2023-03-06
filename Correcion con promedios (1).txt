@@ -1,0 +1,24 @@
+console.log("Procedimiento");
+// Crear una variable la cual se pueda re asignar y reinicializar, la variable debe llamarse termino1 //Asígnele el valor de 5 a la variable termino1, en la misma línea de declaración.
+var termino1 = 5;
+// crear una variable llamada termino2, la variable se puede reinicializar y reasignar, asígnele un valor inicial de 89
+var termino2 = 89;
+//  crear una variable llamada suma y asignarle el valor de la suma de las 2 variables anteriores
+var suma = termino1 + termino2;
+// Cual es el resultado esperado de la suma?
+console.log(suma);
+// Crear 2 variables nuevas, llamadas cadena1 y cadena2 respectivamente // a cadena1 asígnele el valor de "1" y a cadena2 asígnele el valor de "2", en una variable suma, asígnele el valor de la suma de estas dos variables, que valor espera? y cuál le da?
+var cadena1 = "1"; var cadena2 = "2";
+var suma = cadena1 + cadena2;
+console.log(suma);
+// replique la suma entre la variable termino1 y cadena1, qué valor retorna?
+var suma = termino1 + cadena1;
+console.log(suma);
+// La expresión termino1 < 10, representa una expresión booleana // Qué valor toma la expresión termino1 < 10?
+console.log(termino1<10);
+//  se puede asignar las expresiones booleanas a una variable?
+var amarillo = console.log(termino1<10);
+// Procedimiento Promedio de 4 variables
+var Diego = 5; var Andres = 10; var Cruz = 15; var Rivera = 20;
+var prom = (Diego + Andres + Cruz + Rivera)/4
+console.log(prom)
